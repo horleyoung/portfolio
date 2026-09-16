@@ -122,11 +122,11 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-50px' }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="rounded-lg border border-ink/10 dark:border-navy-line bg-white/50 dark:bg-navy-soft p-6 font-mono text-sm space-y-3 h-fit"
+          className="rounded-lg border border-ink/10 dark:border-navy-line bg-white/50 dark:bg-navy-soft p-6 md:p-6 font-mono text-xs md:text-sm space-y-3 h-fit overflow-x-hidden"
         >
           {socials.map((s) => (
             <div key={s.label} className="flex justify-between gap-4 items-center">
-              <span className="text-ink-soft dark:text-white/40">{s.label}</span>
+              <span className="text-ink-soft dark:text-white/40 ">{s.label}</span>
               <div className="flex items-center gap-2">
                 <a
                   href={s.href}

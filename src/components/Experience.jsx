@@ -3,7 +3,7 @@ import { experience } from '../data/experience.js'
 
 export default function Experience() {
   return (
-    <section id="experience" className="mx-auto max-w-5xl px-5 py-20 border-t border-ink/10 dark:border-navy-line">
+    <section id="experience" className="mx-auto max-w-5xl px-5 py-20 border-t border-ink/10 dark:border-navy-line ">
       <p className="font-mono text-xs text-amber mb-2">// experience.log</p>
       <h2 className="font-display text-3xl font-semibold text-ink dark:text-paper mb-10">
         Experience

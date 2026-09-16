@@ -31,7 +31,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-ink/10 dark:border-navy-line bg-paper/90 dark:bg-navy/90 backdrop-blur">
-      <nav className="mx-auto flex max-w-5xl items-center justify-between px-5 py-3">
+      <nav className="relative mx-auto flex max-w-5xl items-center justify-between px-5 py-3">
         <Link to="/" className="font-display text-lg font-semibold text-ink dark:text-paper">
           habeeb<span className="text-indigo">.</span>
           <span className="text-amber">dev</span>
